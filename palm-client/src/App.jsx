@@ -1,15 +1,14 @@
 import { useState } from 'react'
 
 function App() {
-
   return (
     <main>
       <h1>MyPrompter</h1>
       <article>
-        <dev>
-          <textarea></textarea>
+        <div>
+          <textarea />
           <button>Go</button>
-        </dev>
+        </div>
       </article>
     </main>
   )
