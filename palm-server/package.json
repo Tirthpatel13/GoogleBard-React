@@ -1,0 +1,19 @@
+{
+  "name": "palm-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Tirth Patel",
+  "license": "ISC",
+  "dependencies": {
+    "@google-ai/generativelanguage": "^0.2.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "google-auth-library": "^9.0.0",
+    "nodemon": "^3.1.7"
+  }
+}
